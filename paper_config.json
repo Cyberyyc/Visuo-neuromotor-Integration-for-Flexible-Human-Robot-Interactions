@@ -1,0 +1,20 @@
+{
+  "status": "Under Review",
+  "emg_channels": 8,
+  "emg_sampling_hz": 1000,
+  "label_sampling_hz": 200,
+  "window_samples": 200,
+  "stride_samples": 20,
+  "output_dimensions": 6,
+  "output_order": ["angle_mrl", "angle_index", "angle_thumb", "force_mrl", "force_index", "force_thumb"],
+  "latent_dimension": 64,
+  "kalman_state_dimension": 12,
+  "transformer_layers": 2,
+  "attention_heads": 2,
+  "bias_ema_alpha": 0.05,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.001,
+  "batch_size": 128,
+  "epochs": 200,
+  "control_period_seconds": 0.02
+}
